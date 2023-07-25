@@ -1,0 +1,17 @@
+CREATE TABLE teams (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    short_name VARCHAR(50) NOT NULL,
+    logo VARCHAR(255) NULL,
+    matches_played INT DEFAULT 0,
+    win INT DEFAULT 0,
+    loss INT DEFAULT 0,
+    draw INT DEFAULT 0,
+    goals_scored INT DEFAULT 0,
+    goals_conceded INT DEFAULT 0,
+    points INT DEFAULT 0,
+    position INT DEFAULT 0,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    team_group VARCHAR(50) NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
