@@ -35,11 +35,26 @@ To get started with the Fantasy League Management System, follow the steps below
 
 ## Installation
 
-To run the Fantasy League Management System on your local machine, follow these steps:
+1. **Clone the repository:**
 
-1. Configure the application.properties file in the resources directory with your MySQL database settings.
+git clone https://github.com/your-username/your-project.git
+cd your-project
 
-2. Build the project using the Spring Boot CLI:
+markdown
+Copy code
+
+2. **Configure the application.properties file:**
+
+- Open the `src/main/resources/application.properties` file.
+- Set the necessary configuration for your database (e.g., MySQL, PostgreSQL) such as `spring.datasource.url`, `spring.datasource.username`, and `spring.datasource.password`.
+
+3. **Build the project:**
+
+- `mvn clean install`
+
+4. **Run the application:**
+
+- `mvn spring-boot:run`
 
 ## Usage
 
