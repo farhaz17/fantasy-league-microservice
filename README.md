@@ -33,7 +33,33 @@ To get started with the Fantasy League Management System, follow the steps below
 
 ## Installation
 
-1. Clone the repository:
+To run the Fantasy League Management System on your local machine, follow these steps:
 
-```bash
-git clone https://github.com/your-username/fantasy-league-management-system.git
+1. Configure the application.properties file in the resources directory with your MySQL database settings.
+
+2. Build the project using the Spring Boot CLI:
+
+## Usage
+
+Access the application at http://localhost:8080 in your web browser.
+
+Create an account and log in to start using the Fantasy League Management System.
+
+Create your own team, select players, and compete in virtual football league matches.
+
+## Contributing
+
+We welcome contributions from the community! To contribute to the Fantasy League Management System, follow these steps:
+
+1. Fork the repository.
+
+2. Create a new branch for your feature or bug fix.
+
+3. Commit your changes and push to your fork.
+
+4. Submit a pull request to the main repository.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
