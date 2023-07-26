@@ -15,11 +15,13 @@ The Fantasy League Management System is a web application built with Spring Boot
 
 ## Features
 
-- User authentication and authorization
-- Team creation and management
-- Player selection and management
-- Virtual football league competitions
-- Leaderboard to track user standings
+- User Registration and Authentication: Users can create accounts and log in to the system to access their fantasy leagues.
+- Create and Join Leagues: Users can create new fantasy leagues or join existing ones by receiving invitations.
+- Team Creation: Users can create their fantasy football teams by selecting players from the available player pool.
+- Live Player Stats: The system displays live player statistics and scores based on real-life football matches.
+- Team Management: Users can make changes to their teams by adding or removing players before each matchday.
+- League Scoring: Points are awarded to teams based on the performance of their selected players in real football matches.
+- Leaderboards: Leaderboards are displayed to show the rankings of teams in each fantasy league.
 
 ## Getting Started
 
