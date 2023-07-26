@@ -1,0 +1,16 @@
+CREATE TABLE players (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    team_id BIGINT NOT NULL,
+    photo VARCHAR(255) NULL,
+    position VARCHAR(50),
+    age INT NULL,
+    matches_played INT DEFAULT 0,
+    goals INT DEFAULT 0,
+    assists INT DEFAULT 0,
+    clean_sheet INT DEFAULT 0,
+    fantasy_points DOUBLE DEFAULT 0,
+    fantasy_price DOUBLE DEFAULT 0,
+    created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
