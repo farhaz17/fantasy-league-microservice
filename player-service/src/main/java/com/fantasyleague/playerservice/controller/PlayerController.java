@@ -23,9 +23,9 @@ public class PlayerController {
     private final PlayerService playerService;
 
     @PostMapping
-    @CircuitBreaker(name="player", fallbackMethod = "fallbackMethod")
-    @TimeLimiter(name="player")
-    @Retry(name = "player")
+//    @CircuitBreaker(name="player", fallbackMethod = "fallbackMethod")
+//    @TimeLimiter(name="player")
+//    @Retry(name = "player")
     public ResponseEntity<Player> createPlayer(@RequestBody PlayerRequest playerRequest) {
         Player playerResponse = playerService.createPlayer(playerRequest);
         return new ResponseEntity<>(playerResponse, HttpStatus.CREATED);
@@ -41,7 +41,7 @@ public class PlayerController {
         }
     }
 
-    public CompletableFuture<String> fallbackMethod(RuntimeException runtimeException){
-        return CompletableFuture.supplyAsync(()-> "Oops! Something went wrong, please try again later!");
-    }
+//    public CompletableFuture<String> fallbackMethod(RuntimeException runtimeException){
+//        return CompletableFuture.supplyAsync(()-> "Oops! Something went wrong, please try again later!");
+//    }
 }
