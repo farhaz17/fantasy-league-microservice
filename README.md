@@ -12,7 +12,7 @@ The Fantasy League Management System is a web application built with Spring Boot
 - [Contributing](#contributing)
 - [License](#license)
 - [Acknowledgements](#acknowledgements)
-
+ 
 ## Features
 
 - User Registration and Authentication: Users can create accounts and log in to the system to access their fantasy leagues.
