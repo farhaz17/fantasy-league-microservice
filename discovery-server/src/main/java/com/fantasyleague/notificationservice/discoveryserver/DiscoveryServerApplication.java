@@ -1,4 +1,4 @@
-package org.example.discoveryserver;
+package com.fantasyleague.notificationservice.discoveryserver;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
